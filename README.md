@@ -48,3 +48,4 @@ Information about the project's license
 Authors: 
 Credits to Caleb and other developers for contributing to this Kotlin Java Springboot application for kdfitness. 
 
+Resources for using springboot kotlin: https://spring.io/guides/tutorials/spring-boot-kotlin
