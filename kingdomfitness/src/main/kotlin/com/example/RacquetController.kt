@@ -13,10 +13,11 @@ import java.net.URI
 class RacquetController {
     @GetMapping("/")
     fun listRacquets = listOf(
-        Racquet("1", "Tennis Babolat SSAAS"),
-        Racquet("2", "Pickleball paddle joomla advanced"),
-        Racquet("3", "Squash Wilson Racquet"),
-        Racquet("4","Baseball CCT 28/30/32 Inch metal"),
+        Racquet("1", "Tennis","Babolat", "SSAAS-34sdsd", "150", "INR"),
+        Racquet("2", "Pickleball", "joomla","23nd2-AdvancedCCTFibure","80","SGD"),
+        Racquet("3", "Squash","Wilson","1238-asdv-brave","120", "MYR"),
+        Racquet("4","Badmintion","Yonex","23123-asdvbawd","95000","KHR")
+        Racquet("4","Baseball", "Wilson","2312-carboncomposite123", "130", "HKD"),
     )
 }
 

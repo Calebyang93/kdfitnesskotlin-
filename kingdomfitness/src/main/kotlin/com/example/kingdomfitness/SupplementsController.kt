@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController
 class SupplementController {
     @GetMapping("/")
     fun listSuppplement = listOf(
-        Supplement("1", "Omega Oil Zinzino"),
-        Supplement("2", "Tegreen Nu Skin "),
-        Supplement("3", "Ultimate Duo Nu Skin"),
-        Supplement("4","Multivitatmins Nutriliate Amway"),
+        Supplement("1", "Omega Balance Oil", "Zinzino", "19.99", "NOK"),
+        Supplement("2", "Tegreen", "Nuskin", "35.55", "USD"),
+        Supplement("3", "Ultimate Duo", "Nuskin","39.28", "RMB"),
+        Supplement("4","Multivitatmins Nutriliate","Amway","25.57", "USD"),
     )
 }
 
