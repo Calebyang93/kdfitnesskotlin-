@@ -1,4 +1,4 @@
-# This is a Kotlin Java SpringBoot Application 
+# This is a Kotlin SpringBoot Application 
 For one to start building kotlin java springboot projects on visual studio code, perform these 2 steps by looking for these 2 extensions and install it. 
 1) Extension for Java 
 2) Spring Boot Extension 
